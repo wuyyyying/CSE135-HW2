@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script>
+      function random_background() {
+         var color = Math.random()*3;
+         var ret = "WHITE";
+         console.log(color);
+         if(color < 1){
+            document.body.style.backgroundColor = 'yellow';
+            ret = "YELLOW";
+         }
+         if(color >= 1 && color <2){
+            document.body.style.backgroundColor = 'blue';
+            ret = "BLUE";
+         }
+         if(color > 2){
+            document.body.style.backgroundColor = 'white';
+         }
+         return ret;
+      }
+      </script>
+   </head>
+   <body>
+      Hello Web World from Language JavaScript on
+      <div id="demo"></div> Enjoy my <div id="demo1"></div> page!
+      <script>
+         var d = new Date();
+         document.getElementById("demo").innerHTML = d;
+         document.getElementById("demo1").innerHTML = random_background();
+      </script>
+   </body>
+</html>
