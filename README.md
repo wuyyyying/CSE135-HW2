@@ -1,8 +1,7 @@
 # CSE135-HW2
-All hw2-related files are located either in root (for Nodejs) or /var/www/html/ (for PHP).
-PHP is in Apache at port 8081
-NodeJs is a new server at port 8084 (The old NodeJs server is at 8083, just a homepage)
-Github: https://github.com/wuyyyying/CSE135-HW2
+All hw2-related files are located either in root (for Nodejs) or /var/www/html/ (for PHP).  
+PHP is in Apache at port 8081.  
+NodeJs is a new server at port 8084 (The old NodeJs server is at 8083, just a homepage).  
 
 ## PHP
 
